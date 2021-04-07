@@ -1,14 +1,23 @@
-export interface StrapiRegistrationResult {}
+export type StrapiUser = Record<string, any>
+
+export interface StrapiRegistrationResult {
+  user: StrapiUser
+  jwt: string
+}
 
 export interface StrapiRegistrationData {
-  username?: string;
-  email?: string;
-  password: string;
+  username: string | null
+  email: string | null
+  password: string | null
 }
 
-
-export interface StrapiUser {
-  name: string;
-  email: string;
-  password: string;
+export interface StrapiLoginResult {
+  user: StrapiUser
+  jwt: string
 }
+
+export interface StrapiLoginData {
+  identifier: string | null
+  password: string | null
+}
+
