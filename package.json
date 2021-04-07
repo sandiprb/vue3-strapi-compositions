@@ -1,0 +1,40 @@
+{
+  "name": "vue3-strapi-compositions",
+  "version": "0.0.1",
+  "description": "Strapi CMS Rest API  composition functions for vue3",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sandiprb/vue3-strapi-compositions.git"
+  },
+  "keywords": [
+    "strapi",
+    "vue3",
+    "vue-strapi"
+  ],
+  "author": "Sandip Baradiya <baradiya.sandip@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sandiprb/vue3-strapi-compositions/issues"
+  },
+  "homepage": "https://github.com/sandiprb/vue3-strapi-compositions#readme",
+  "dependencies": {
+    "vue-demi": "latest"
+  },
+  "peerDependencies": {
+    "@vue/composition-api": "^1.0.0-beta.1",
+    "vue": "^2.0.0 || >=3.0.0-rc.0"
+  },
+  "peerDependenciesMeta": {
+    "@vue/composition-api": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "vue": "^3.0.0",
+    "typescript": "^4.2.3"
+  }
+}

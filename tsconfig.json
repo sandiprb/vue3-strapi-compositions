@@ -1,0 +1,24 @@
+{
+  "compilerOptions": { 
+    "target": "es6", 
+    "module": "commonjs",
+    "strict": true, 
+    "declaration": true,
+    "baseUrl": ".",
+    "outDir": "./dist",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "lib": [
+      "dom",
+      "es2020"
+    ]
+  },
+  "exclude": [
+      "tests",
+      "dist",
+      "node_modules"
+  ]
+}
